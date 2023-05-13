@@ -1,0 +1,177 @@
+.header-one {
+    padding: 0 6%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    box-shadow: 2px 2px 2px 2px rgba(0.2, 0.2, 0.2, 0.2);
+}
+
+.container-one {
+    margin: 0 auto;
+    width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .header-logo { 
+    margin-left: 110px;
+} */
+
+/* .header-search {
+    align-items: center;
+    display: block;
+} */
+
+.search {
+    width: 600px;
+    height: 30px;
+}
+
+.search-label {
+    height: 100%;
+    display: flex;
+}
+
+.search-input {
+    padding: 0 10px;
+    flex-grow: 1;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Circular Std';
+}
+
+.search-input::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.search-btn {
+    text-align: center;
+    font-family: 'Circular Std';
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    padding: 3px 5px 0px 5px;
+    display: block;
+
+}
+
+.search-btn:hover {
+    background: rgb(219, 205, 205);
+    color: black;
+}
+
+
+/* .header-links-one {
+    margin-right: 100px;
+} */
+
+
+.nav-header-link-icon-text {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+/* .nav-header-link-icon-text a:hover::after {
+    width: 100%;
+} */
+
+
+.nav-header-link-icon-text a {
+    font-family: 'Circular Std';
+    display: block;
+    color: black;
+    padding: 5px;
+    
+}
+
+.nav-header-link-icon-text a:hover {
+    background: none;
+    background: rgb(219, 205, 205);
+    color: black;
+}
+
+
+.nav-header-link-icon-text ul li {
+    display: block;
+    z-index: 2;
+}
+
+.nav-header-list-one {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-header-list-two {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-two {
+    z-index: 2;
+    left: 0;
+    right: 0;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 0 6%;
+    box-shadow: 0px 0px 0px 2px rgba(0.2, 0.2, 0.2, 0.05);
+}
+
+.container-two {
+    margin: 0 auto;
+    width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+nav ul li {
+    position: relative;
+    float: left;
+}
+
+nav ul li a {
+    font-family: 'Circular Std';
+    padding: 15px;
+    color: black;
+    font-size: 18px;
+    display: block;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: rgb(219, 205, 205);
+    color: black;
+}
+
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    width: 180px;
+    background: white;
+    display: none;
+    padding: 0;
+}
+
+nav ul li ul li {
+    width: 100%;
+}
+
+nav ul li ul li ul {
+    left: 180px;
+    top: 0;
+}
+
+nav ul li:hover > ul {
+    display: initial;
+}

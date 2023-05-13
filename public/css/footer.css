@@ -1,0 +1,39 @@
+footer {
+    width: 100%;
+    height: auto;
+    background: #000;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    bottom: 0;
+}
+
+footer p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    border-bottom: 1px solid white;
+}
+
+.social img {
+    width: 25px;
+    margin-left: 10px; 
+    margin-bottom: 10px;
+}
+
+.logotip img {
+    width: 200px;
+    margin-bottom: 10px;
+}

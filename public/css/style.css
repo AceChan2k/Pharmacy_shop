@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Circular Std';
+  list-style: none;
+  text-decoration: none;
+}
+
+.row {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main {
+  background-color: white;
+}
+.main h1 {
+    margin-top: 1px;
+    text-align: center;
+    font-family: 'Circular Std';
+    display: block;
+    padding: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 280px;
+  max-height: 445px;
+  text-align: center;
+  font-family: 'Circular Std';
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 248px;
+  height: 248px;
+  padding: 10px;
+}
+
+.card h1{
+  font-size: 25px;
+}
+
+.price {
+  color: grey;
+  font-size: 20px;
+}
+
+.card_button {
+  list-style: none;
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card_button a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Circular Std';
+  display: block;
+}
+
+.card_button a:hover {
+  color: white;
+}
+
+
+.card_button:hover {
+  opacity: 0.7;
+  
+}
+
+
+
+
+
+
+
+
