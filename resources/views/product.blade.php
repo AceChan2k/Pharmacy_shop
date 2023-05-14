@@ -20,7 +20,7 @@
                 <div class="col-lg-6">
                     <div class="details_image">
                         <div class="details_image_more">
-                        <img src="{{Storage::url($item->img)}}" alt="{{$item->title}}">  
+                        <img src="{{$item->image}}" alt="{{$item->title}}">  
                         <!-- <img src="/img/cards/Капли в глаза 1.jpg" alt=""> -->
                         </div>
                     </div>
