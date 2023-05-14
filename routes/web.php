@@ -20,6 +20,17 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::group(['prefix' => 'basket',],function(){
+    Route::post('/add/{id}', [App\Http\Controllers\BasketController::class, 'basketAdd'])->name('basket-add');
+
+    Route::get('/', [App\Http\Controllers\BasketController::class, 'basket'])->name('basket');
+    Route::get('/place', [App\Http\Controllers\BasketController::class, 'basketPlace'])->name('basket-place');
+    Route::post('/remove/{id}', [App\Http\Controllers\BasketController::class, 'basketRemove'])->name('basket-remove');
+    Route::post('/place', [App\Http\Controllers\BasketController::class, 'basketConfirm'])->name('basket-confirm');
+
+});
+
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/{cat}', [App\Http\Controllers\ProductController::class, 'showCategory'])->name('showCategory');

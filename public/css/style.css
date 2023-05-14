@@ -8,8 +8,10 @@
 }
 
 .row {
+  padding-left: 50px;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  padding-bottom: 40px;
 }
 
 .main {
@@ -47,6 +49,9 @@
   font-size: 20px;
 }
 
+.about_product {
+  font-size: 15px;
+}
 .card_button {
   list-style: none;
   border: none;

@@ -1,0 +1,50 @@
+
+.template {
+    padding: 20px 15px;
+    text-align: center;
+    background-color: white;
+    margin-top: 1px;
+    padding-top: 50px;
+    padding-bottom: 187px;
+
+}
+
+table {
+    text-align: left;
+}
+
+/* .row-order {
+    padding: 0;
+} */
+
+div .form-control {
+    max-width: 250px;
+}
+
+div.form-inline form {
+    display: inline;
+}
+
+div.labels {
+    position: absolute;
+}
+
+div.labels span.badge {
+    display: block;
+}
+
+span.badge.badge-success {
+    color: #fff;
+    background-color: #28a745;
+}
+
+
+div.filters {
+    padding-bottom: 5px;
+}
+
+.form-group {
+ display: flex;
+ justify-content: center;
+ text-align: center;
+}

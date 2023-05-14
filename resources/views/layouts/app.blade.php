@@ -12,6 +12,10 @@
 
     <!-- Styles -->
 	<link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="/css/footer.css"/>
+	<link rel="stylesheet" href="/css/header.css"/>
+    <link rel="stylesheet" href="/css/basket.css">
+    <link rel="stylesheet" href="/css/order.css">
     
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">

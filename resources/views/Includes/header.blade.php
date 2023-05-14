@@ -35,7 +35,7 @@
                             <img src="/img/icons/basket.svg"/></img>
                         </li>
                         <li class="nav-header-link-icon-text">
-                            <a href="#">Корзина</a>
+                            <a href="/basket">Корзина</a>
                         </li>
                     </ul>
                 </nav>
@@ -53,25 +53,25 @@
                         <li class="nav-header-link-text"><a href="/home">Главная</a></li>
                         <li class="nav-header-link-text"><a href="#">Все категории &blacktriangledown;</a>
                     <ul>
-                        <li><a href="#">Таблетки</a>
+                        <li><a href="/Таблетки">Таблетки</a>
                             <!-- <ul>
                                 <li><a href="#">Таблетки от боли в горле</a></li>
                                 <li><a href="#">Таблетки от головной боли</a></li>
                             </ul> -->
                         </li>
-                        <li><a href="#">Капли</a>
+                        <li><a href="/Капли">Капли</a>
                             <!-- <ul>
                                 <li><a href="#">Капли в нос</a></li>
                                 <li><a href="#">Капли в глаза</a></li>
                             </ul> -->
                         </li>
-                        <li><a href="#">Сиропы</a>
+                        <li><a href="/Сиропы">Сиропы</a>
                             <!-- <ul>
                                 <li><a href="#">Сироп для детей</a></li>
                                 <li><a href="#">Сироп для взрослых</a></li>
                             </ul> -->
                         </li>
-                        <li><a href="#">Крема</a></li>
+                        <li><a href="/Крема">Крема</a></li>
 
                     </ul>
                         </li>

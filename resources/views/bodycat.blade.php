@@ -24,7 +24,7 @@
 							<a href="{{route('showProduct',[$product->category['alias'] , $product->id])}}"><img src="{{$product->image}}" alt="Product"></a>
 						</div>
 						<h1>{{$product->title}}</h1>
-						<p class="price">${{$product->price}}</p>
+						<p class="price">₽{{$product->price}}</p>
 						<p class="about_product">{{$product->description}}</p>
 						<p class="card_button"><a href="{{route('showProduct',[$product->category['alias'] , $product->id])}}">Подробнее</a></p>
 					</div>

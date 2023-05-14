@@ -4,8 +4,6 @@
 
 	<!-- Styles -->
     <link rel="stylesheet" href="/css/product.css">
-    <link rel="stylesheet" href="/css/footer.css"/>
-	<link rel="stylesheet" href="/css/header.css"/>
 
 @endsection
 
@@ -50,8 +48,10 @@
                                     <div id="qty_down_button" class="qty_down qty_control">-</i></div>
                                 </div>
                             </div>
-
-                                <button type="submit" class="btn" role="button" style="border: solid 2px #1b1b1b;">Добавить в корзину</button>
+                                <form action="{{route('basket-add', $item)}}" method="POST">
+                                    <button type="submit" class="btn" role="button" style="border: solid 2px #1b1b1b;">Добавить в корзину</button>
+                                @csrf
+                            </form>
                         </div>
 
                     </div>
