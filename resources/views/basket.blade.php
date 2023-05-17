@@ -15,7 +15,7 @@
             <th>Название</th>
             <th>Кол-во</th>
             <th>Цена</th>
-            <th>Общая стоимость</th>
+            <th>Общая стоимость товара</th>
         </tr>
         </thead>
         <tbody>
@@ -42,11 +42,12 @@
                         </form>
                     </div>
                 </td>
-                <td style="padding-top: 35px;">₽{{ $product->getPriceForCount() }}</td>
+                <td style="padding-top: 35px;">₽{{$product->price}}</td>
+                <td style="padding-top: 35px;">₽{{$product->getPriceForCount()}}</td>
             </tr>
             @endforeach
             <tr>
-                <td colspan="3">Общая стоимость:</td>
+                <td colspan="3">Общая стоимость товара в корзине:</td>
                 <td>₽{{$order->getFullPrice()}}</td>
             </tr>
         </tbody>
