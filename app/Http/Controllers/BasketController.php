@@ -96,6 +96,7 @@ class BasketController extends Controller
                 $pivotRow->update();
             }
         }
+        
         $product = Product::find($product_id);
         session()->flash('warning','Удален товар:' . $product->title);
 
