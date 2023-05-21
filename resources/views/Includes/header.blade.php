@@ -29,7 +29,7 @@
                             <img src="/img/icons/massage.png" style="width: 20px;"/></img>
                         </li>
                         <li class="nav-header-link-icon-text">
-                            <a href="#">Написать нам</a>
+                            <a href="/ContactUs">Написать нам</a>
                         </li>
                         <li class="nav-header-link-icon">
                             <img src="/img/icons/basket.svg"/></img>
@@ -51,7 +51,7 @@
                 <nav class="nav-header-two">
                     <ul class="nav-header-list-two">
                         <li class="nav-header-link-text"><a href="/home">Главная</a></li>
-                        <li class="nav-header-link-text"><a href="#">Все категории &blacktriangledown;</a>
+                        <li class="nav-header-link-text"><a href="/home">Все категории &blacktriangledown;</a>
                     <ul>
                         <li><a href="/Таблетки">Таблетки</a>
                             <!-- <ul>
@@ -78,7 +78,7 @@
                         <li class="nav-header-link-text"><a href="#">Оплата и доставка</a></li>
                         <li class="nav-header-link-text"><a href="#">Дополнительные услуги</a></li>
                         <li class="nav-header-link-text"><a href="#">О нас</a></li>
-                        <li class="nav-header-link-text"><a href="#">Контакты</a></li>
+                        <li class="nav-header-link-text"><a href="/Contacts">Контакты</a></li>
                     </ul>
                 </nav>
             </div>

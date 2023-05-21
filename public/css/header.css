@@ -38,9 +38,12 @@
 .search-input {
     padding: 0 10px;
     flex-grow: 1;
-    background-color: rgb(255, 255, 255);
-    font-size: 15px;
+    font-size: 1em;
     font-family: 'Circular Std';
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #b5adad;
+    background-color: #f1f1f1;
 }
 
 .search-input::placeholder {
@@ -48,6 +51,7 @@
 }
 
 .search-btn {
+    width: 50px;
     text-align: center;
     font-family: 'Circular Std';
     list-style: none;

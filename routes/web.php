@@ -30,6 +30,9 @@ Route::group(['prefix' => 'basket',],function(){
 
 });
 
+Route::get('/ContactUs', function () {return view('ContactUs');
+});
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
