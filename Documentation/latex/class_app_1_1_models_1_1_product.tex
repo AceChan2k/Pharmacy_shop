@@ -1,0 +1,63 @@
+\doxysection{Product Class Reference}
+\hypertarget{class_app_1_1_models_1_1_product}{}\label{class_app_1_1_models_1_1_product}\index{Product@{Product}}
+Inheritance diagram for Product\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_app_1_1_models_1_1_product}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_app_1_1_models_1_1_product_aa6f5738c49213165a21d711dfa53f1d6}{category}} ()
+\begin{DoxyCompactList}\small\item\em Получение категории, к которой принадлежит товар. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_app_1_1_models_1_1_product_aab574afd1d2494abddd3ac03b81f996c}{get\+Price\+For\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Получить общую цену товаров. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_app_1_1_models_1_1_product_a6a90e74ccdf5efd70d51d10c906f8e32}\label{class_app_1_1_models_1_1_product_a6a90e74ccdf5efd70d51d10c906f8e32} 
+{\bfseries \$fillable} = \mbox{[}\textquotesingle{}title\textquotesingle{}, \textquotesingle{}price\textquotesingle{}, \textquotesingle{}category\+\_\+id\textquotesingle{}, \textquotesingle{}description\textquotesingle{},\textquotesingle{}image\textquotesingle{}\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_app_1_1_models_1_1_product_aa6f5738c49213165a21d711dfa53f1d6}\label{class_app_1_1_models_1_1_product_aa6f5738c49213165a21d711dfa53f1d6} 
+\index{Product@{Product}!category@{category}}
+\index{category@{category}!Product@{Product}}
+\doxysubsubsection{\texorpdfstring{category()}{category()}}
+{\footnotesize\ttfamily category (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Получение категории, к которой принадлежит товар. 
+
+\begin{DoxyReturn}{Returns}
+\textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Eloquent\textbackslash{}\+Relations\textbackslash{}\+Belongs\+To Отношение один к одному
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+Category
+\end{DoxySeeAlso}
+\begin{DoxyNote}{Note}
+Поле foreign key по умолчанию считается category\+\_\+id 
+\end{DoxyNote}
+\Hypertarget{class_app_1_1_models_1_1_product_aab574afd1d2494abddd3ac03b81f996c}\label{class_app_1_1_models_1_1_product_aab574afd1d2494abddd3ac03b81f996c} 
+\index{Product@{Product}!getPriceForCount@{getPriceForCount}}
+\index{getPriceForCount@{getPriceForCount}!Product@{Product}}
+\doxysubsubsection{\texorpdfstring{getPriceForCount()}{getPriceForCount()}}
+{\footnotesize\ttfamily get\+Price\+For\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Получить общую цену товаров. 
+
+Метод получает общую цену товаров, учитывая их количество.
+
+\begin{DoxyReturn}{Returns}
+float Цена 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+app/\+Models/Product.\+php\end{DoxyCompactItemize}

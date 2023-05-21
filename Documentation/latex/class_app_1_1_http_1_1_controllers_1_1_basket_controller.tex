@@ -1,0 +1,102 @@
+\doxysection{Basket\+Controller Class Reference}
+\hypertarget{class_app_1_1_http_1_1_controllers_1_1_basket_controller}{}\label{class_app_1_1_http_1_1_controllers_1_1_basket_controller}\index{BasketController@{BasketController}}
+Inheritance diagram for Basket\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_app_1_1_http_1_1_controllers_1_1_basket_controller}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_basket_controller_aa3d2102227544447d27f7250b75ec0fe}{basket}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_basket_controller_a2ccba9bec90233e734b464b39980e729}{basket\+Confirm}} (Request \$request)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_basket_controller_ad887c6b715a2ad1761b1a18a7816d7e4}{basket\+Place}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_basket_controller_a4047bd090e3e379c1c235c614bd7a293}{basket\+Add}} (\$product\+\_\+id)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_basket_controller_a6750886ef2127533198aa734a2ffbb70}{basket\+Remove}} (\$product\+\_\+id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Контроллер для работы с корзиной. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_basket_controller_aa3d2102227544447d27f7250b75ec0fe}\label{class_app_1_1_http_1_1_controllers_1_1_basket_controller_aa3d2102227544447d27f7250b75ec0fe} 
+\index{BasketController@{BasketController}!basket@{basket}}
+\index{basket@{basket}!BasketController@{BasketController}}
+\doxysubsubsection{\texorpdfstring{basket()}{basket()}}
+{\footnotesize\ttfamily basket (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Отображение содержимого корзины.
+
+\begin{DoxyReturn}{Returns}
+\textbackslash{}\+Illuminate\textbackslash{}\+View\textbackslash{}\+View 
+\end{DoxyReturn}
+\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_basket_controller_a4047bd090e3e379c1c235c614bd7a293}\label{class_app_1_1_http_1_1_controllers_1_1_basket_controller_a4047bd090e3e379c1c235c614bd7a293} 
+\index{BasketController@{BasketController}!basketAdd@{basketAdd}}
+\index{basketAdd@{basketAdd}!BasketController@{BasketController}}
+\doxysubsubsection{\texorpdfstring{basketAdd()}{basketAdd()}}
+{\footnotesize\ttfamily basket\+Add (\begin{DoxyParamCaption}\item[{}]{\$product\+\_\+id }\end{DoxyParamCaption})}
+
+Добавление товара в корзину.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$product\+\_\+id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\textbackslash{}\+Illuminate\textbackslash{}\+Http\textbackslash{}\+Redirect\+Response 
+\end{DoxyReturn}
+\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_basket_controller_a2ccba9bec90233e734b464b39980e729}\label{class_app_1_1_http_1_1_controllers_1_1_basket_controller_a2ccba9bec90233e734b464b39980e729} 
+\index{BasketController@{BasketController}!basketConfirm@{basketConfirm}}
+\index{basketConfirm@{basketConfirm}!BasketController@{BasketController}}
+\doxysubsubsection{\texorpdfstring{basketConfirm()}{basketConfirm()}}
+{\footnotesize\ttfamily basket\+Confirm (\begin{DoxyParamCaption}\item[{Request}]{\$request }\end{DoxyParamCaption})}
+
+Сохранение заказа и перенаправление на главную страницу.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Http\textbackslash{}\+Request & {\em \$request} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\textbackslash{}\+Illuminate\textbackslash{}\+Http\textbackslash{}\+Redirect\+Response 
+\end{DoxyReturn}
+\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_basket_controller_ad887c6b715a2ad1761b1a18a7816d7e4}\label{class_app_1_1_http_1_1_controllers_1_1_basket_controller_ad887c6b715a2ad1761b1a18a7816d7e4} 
+\index{BasketController@{BasketController}!basketPlace@{basketPlace}}
+\index{basketPlace@{basketPlace}!BasketController@{BasketController}}
+\doxysubsubsection{\texorpdfstring{basketPlace()}{basketPlace()}}
+{\footnotesize\ttfamily basket\+Place (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Отображение формы оформления заказа.
+
+\begin{DoxyReturn}{Returns}
+\textbackslash{}\+Illuminate\textbackslash{}\+View\textbackslash{}\+View 
+\end{DoxyReturn}
+\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_basket_controller_a6750886ef2127533198aa734a2ffbb70}\label{class_app_1_1_http_1_1_controllers_1_1_basket_controller_a6750886ef2127533198aa734a2ffbb70} 
+\index{BasketController@{BasketController}!basketRemove@{basketRemove}}
+\index{basketRemove@{basketRemove}!BasketController@{BasketController}}
+\doxysubsubsection{\texorpdfstring{basketRemove()}{basketRemove()}}
+{\footnotesize\ttfamily basket\+Remove (\begin{DoxyParamCaption}\item[{}]{\$product\+\_\+id }\end{DoxyParamCaption})}
+
+Удаление товара из корзины.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$product\+\_\+id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\textbackslash{}\+Illuminate\textbackslash{}\+Http\textbackslash{}\+Redirect\+Response 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+app/\+Http/\+Controllers/Basket\+Controller.\+php\end{DoxyCompactItemize}
