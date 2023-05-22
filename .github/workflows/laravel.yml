@@ -25,7 +25,9 @@ jobs:
     - name: Directory Permissions
       run: chmod -R 777 storage bootstrap/cache
     - name: Build assets
-      run: npm ci && npm run build  
+      run: |
+        npm ci && npm run build
+        npm run dev
     - name: Create Database
       run: |
         mkdir -p database
@@ -33,9 +35,7 @@ jobs:
         php artisan cache:clear
         php artisan route:clear
         php artisan config:clear
-        php artisan view:clear
-    - name: Assets run
-      run: npm run dev        
+        php artisan view:clear     
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       env:
         DB_CONNECTION: sqlite
