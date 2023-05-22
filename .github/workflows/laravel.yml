@@ -34,6 +34,8 @@ jobs:
         php artisan route:clear
         php artisan config:clear
         php artisan view:clear
+    - name: Assets run
+      run: npm run dev        
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       env:
         DB_CONNECTION: sqlite
