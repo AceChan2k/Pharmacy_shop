@@ -41,3 +41,11 @@ jobs:
         DB_DATABASE: database/database.sqlite
       run: php artisan test
 #         run: vendor/bin/phpunit
+    - name: Create build archive
+      run: zip -r build.zip .
+      working-directory: .
+    - name: Save build archive as artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: build-artifact
+        path: ./path/to/your/laravel/directory/build.zip
