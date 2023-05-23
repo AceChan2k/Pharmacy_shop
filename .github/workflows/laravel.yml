@@ -44,8 +44,9 @@ jobs:
     - name: Create build archive
       run: zip -r build.zip .
       working-directory: .
+
     - name: Save build archive as artifact
       uses: actions/upload-artifact@v2
       with:
-        name: build-artifact
-        path: ./path/to/your/laravel/directory/build.zip
+        name: build-artifact-project
+        path: build.zip  
