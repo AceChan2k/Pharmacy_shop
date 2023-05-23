@@ -91,13 +91,13 @@
             </div>
         </nav>
 
-        @include('includes.header')
+        @include('Includes.header')
 
         <main>
             @yield('content')
         </main>
 
-        @include('includes.footer')
+        @include('Includes.footer')
     
     </div>
 
