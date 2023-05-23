@@ -16,7 +16,7 @@ class CatAndProdTest extends TestCase
     {
         // Создаем тестовые данные для категории
         $categoryData = [
-            'id' => '25',
+            'id' => '2',
             'title' => 'Новая категория',
             'description' => 'Описание категории',
             'image' => 'Новая фотография',
