@@ -41,9 +41,9 @@ jobs:
         DB_DATABASE: database/database.sqlite
       run: php artisan test
 #         run: vendor/bin/phpunit
-#     - name: Create build archive
-#       run: zip -r build.zip .
-#       working-directory: .
+    - name: Create build archive
+      run: zip -j build.zip .
+      working-directory: .
 
     - name: Save build archive as artifact
       uses: actions/upload-artifact@v2
