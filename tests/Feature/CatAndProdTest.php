@@ -37,7 +37,7 @@ class CatAndProdTest extends TestCase
 
         // Создаем тестовые данные для товара
         $productData = [
-            'id' => '2',
+            'id' => '1',
             'title' => 'Новый товар',
             'price' => '200',
             'description' => 'Описание товара',
