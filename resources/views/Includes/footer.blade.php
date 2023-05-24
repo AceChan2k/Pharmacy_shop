@@ -17,10 +17,11 @@
 <footer>
     <nav>
         <a href="/home">Главная</a>
-        <a href="#">О нас</a>
-        <a href="#">Сервис</a>
-        <a href="#">Локации</a>
-        <a href="#">Контакты</a>
+        <a href="/aboutus">О нас</a>
+        <!-- <a href="#">Сервис</a>
+        <a href="#">Локации</a> -->
+        <a href="/contacts">Контакты</a>
+        <a href="/ContactUs">Написать нам</a>
     </nav>
 
     <div class="logotip">

@@ -53,32 +53,15 @@
                         <li class="nav-header-link-text"><a href="/home">Главная</a></li>
                         <li class="nav-header-link-text"><a href="/home">Все категории &blacktriangledown;</a>
                     <ul>
-                        <li><a href="/Таблетки">Таблетки</a>
-                            <!-- <ul>
-                                <li><a href="#">Таблетки от боли в горле</a></li>
-                                <li><a href="#">Таблетки от головной боли</a></li>
-                            </ul> -->
-                        </li>
-                        <li><a href="/Капли">Капли</a>
-                            <!-- <ul>
-                                <li><a href="#">Капли в нос</a></li>
-                                <li><a href="#">Капли в глаза</a></li>
-                            </ul> -->
-                        </li>
-                        <li><a href="/Сиропы">Сиропы</a>
-                            <!-- <ul>
-                                <li><a href="#">Сироп для детей</a></li>
-                                <li><a href="#">Сироп для взрослых</a></li>
-                            </ul> -->
-                        </li>
-                        <li><a href="/Крема">Крема</a></li>
-
+                        @foreach($categories as $category)
+                            <li><a href="{{route('showCategory',$category->alias)}}">{{$category->title}}</a></li>
+                        @endforeach
                     </ul>
                         </li>
-                        <li class="nav-header-link-text"><a href="#">Оплата и доставка</a></li>
-                        <li class="nav-header-link-text"><a href="#">Дополнительные услуги</a></li>
-                        <li class="nav-header-link-text"><a href="#">О нас</a></li>
-                        <li class="nav-header-link-text"><a href="/Contacts">Контакты</a></li>
+                        <!-- <li class="nav-header-link-text"><a href="#">Оплата и доставка</a></li> -->
+                        <!-- <li class="nav-header-link-text"><a href="#">Дополнительные услуги</a></li> -->
+                        <li class="nav-header-link-text"><a href="/aboutus">О нас</a></li>
+                        <li class="nav-header-link-text"><a href="/contacts">Контакты</a></li>
                     </ul>
                 </nav>
             </div>

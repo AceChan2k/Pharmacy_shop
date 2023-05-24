@@ -20,6 +20,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
+
 Route::group(['prefix' => 'basket',],function(){
 
     Route::post('/add/{id}', [App\Http\Controllers\BasketController::class, 'basketAdd'])->name('basket-add');
@@ -30,13 +31,19 @@ Route::group(['prefix' => 'basket',],function(){
 
 });
 
+Route::get('/aboutus', function () {return view('aboutus');
+});
+
 Route::get('/ContactUs', function () {return view('ContactUs');
 });
 
+Route::get('/contacts', function () {return view('contacts');
+});
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/{cat}', [App\Http\Controllers\ProductController::class, 'showCategory'])->name('showCategory');
 
 Route::get('/{cat}/{product_id}', [App\Http\Controllers\ProductController::class, 'show'])->name('showProduct');
+
 

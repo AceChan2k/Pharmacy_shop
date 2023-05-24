@@ -26,14 +26,15 @@
             <input type="text" name="phone" id="phone" placeholder="Телефон">
         </div>
         <div class="queryInp">
-            <textarea name="query" id="query" cols="30" rows="5"
+            <textarea name="query" id="query" id="message" cols="30" rows="5"
             placeholder="Напишите нам что-то..."></textarea>
         </div>
         <div class="submitBtn">
-            <button id="btn" onclick="notif()">Отправить</button>
+            <input type="submit" class="btn btn-success" value="Отправить">
+            <!-- <button id="btn" onclick="notif()">Отправить</button> -->
         </div>
         </form>
-        <p class="extra">Вы также можете связаться с нами по +71234567891</p>
+        <p class="extra" style="padding-bottom: 50px;">Вы также можете связаться с нами по +7(952) 999-99-01</p>
     </div>
 </main>
 @endsection
