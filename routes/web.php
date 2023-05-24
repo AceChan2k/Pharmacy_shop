@@ -37,6 +37,8 @@ Route::get('/aboutus', function () {return view('aboutus');
 Route::get('/ContactUs', function () {return view('ContactUs');
 });
 
+Route::post('/ContactUs', [App\Http\Controllers\MessageController::class, 'msgConfirm'])->name('msg-confirm');
+
 Route::get('/contacts', function () {return view('contacts');
 });
 
