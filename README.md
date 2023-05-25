@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/AceChan2k/Pharmacy_shop">
-    <img src="./public/img/logo2.svg" width="300">
+    <img src="./public/img/logo2.svg" width="250">
   </a>
 </p>
 
