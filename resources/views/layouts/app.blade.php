@@ -11,15 +11,16 @@
     <title>Pharmacy-shop</title>
 
     <!-- Styles -->
-	<link rel="stylesheet" href="/css/style.css"/>
     <link rel="stylesheet" href="/css/footer.css"/>
 	<link rel="stylesheet" href="/css/header.css"/>
     <link rel="stylesheet" href="/css/basket.css">
     <link rel="stylesheet" href="/css/order.css">
+    <link rel="stylesheet" href="/css/style.css"/>
     
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
 
     <!-- Web fonts -->
 	<link rel="stylesheet" href="/css/fonts/sofia-pro/stylesheet.css" />

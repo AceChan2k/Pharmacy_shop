@@ -1,5 +1,15 @@
 @extends('layouts.app')
 
+@section('custom.css')
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="/css/footer.css"/>
+	<link rel="stylesheet" href="/css/header.css"/>
+    <link rel="stylesheet" href="/css/order.css">
+    <link rel="stylesheet" href="/css/style.css"/>
+
+@endsection
+
 @section('content')
     <div class='template'>
     <h1>Подтверждение заказа</h1>

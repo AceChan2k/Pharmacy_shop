@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['index_0',['index',['../class_app_1_1_http_1_1_controllers_1_1_home_controller.html#a149eb92716c1084a935e04a8d95f7347',1,'App::Http::Controllers::HomeController']]]
+  ['getfullprice_0',['getFullPrice',['../class_app_1_1_models_1_1_order.html#a163addb6f4d71f3e4051d3415b38ea8d',1,'App::Models::Order']]],
+  ['getpriceforcount_1',['getPriceForCount',['../class_app_1_1_models_1_1_product.html#aab574afd1d2494abddd3ac03b81f996c',1,'App::Models::Product']]]
 ];

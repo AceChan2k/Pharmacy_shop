@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['validatesignature_0',['ValidateSignature',['../class_app_1_1_http_1_1_middleware_1_1_validate_signature.html',1,'App::Http::Middleware']]],
-  ['validator_1',['validator',['../class_app_1_1_http_1_1_controllers_1_1_auth_1_1_register_controller.html#aa47350de63ea5295d9c9718e3d09135c',1,'App::Http::Controllers::Auth::RegisterController']]],
-  ['verificationcontroller_2',['VerificationController',['../class_app_1_1_http_1_1_controllers_1_1_auth_1_1_verification_controller.html',1,'App::Http::Controllers::Auth']]],
-  ['verifycsrftoken_3',['VerifyCsrfToken',['../class_app_1_1_http_1_1_middleware_1_1_verify_csrf_token.html',1,'App::Http::Middleware']]]
+  ['trimstrings_0',['TrimStrings',['../class_app_1_1_http_1_1_middleware_1_1_trim_strings.html',1,'App::Http::Middleware']]],
+  ['trimstrings_2ephp_1',['TrimStrings.php',['../_trim_strings_8php.html',1,'']]],
+  ['trusthosts_2',['TrustHosts',['../class_app_1_1_http_1_1_middleware_1_1_trust_hosts.html',1,'App::Http::Middleware']]],
+  ['trusthosts_2ephp_3',['TrustHosts.php',['../_trust_hosts_8php.html',1,'']]],
+  ['trustproxies_4',['TrustProxies',['../class_app_1_1_http_1_1_middleware_1_1_trust_proxies.html',1,'App::Http::Middleware']]],
+  ['trustproxies_2ephp_5',['TrustProxies.php',['../_trust_proxies_8php.html',1,'']]]
 ];

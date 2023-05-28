@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['logincontroller_0',['LoginController',['../class_app_1_1_http_1_1_controllers_1_1_auth_1_1_login_controller.html',1,'App::Http::Controllers::Auth']]]
+  ['index_0',['index',['../class_app_1_1_http_1_1_controllers_1_1_home_controller.html#a149eb92716c1084a935e04a8d95f7347',1,'App::Http::Controllers::HomeController']]]
 ];

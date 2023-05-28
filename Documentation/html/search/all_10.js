@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['saveorder_0',['saveOrder',['../class_app_1_1_models_1_1_order.html#ab195ca0c3cec4221dfda8ae818d601c3',1,'App::Models::Order']]],
-  ['schedule_1',['schedule',['../class_app_1_1_console_1_1_kernel.html#ac8f0af578c80277b7a25381c6a9e268c',1,'App::Console::Kernel']]],
-  ['shoulddiscoverevents_2',['shouldDiscoverEvents',['../class_app_1_1_providers_1_1_event_service_provider.html#a364bb57fa3279a24dbf7090e064a5ade',1,'App::Providers::EventServiceProvider']]],
-  ['show_3',['show',['../class_app_1_1_http_1_1_controllers_1_1_product_controller.html#a08a367c475adf6705f2d7ec024417dd0',1,'App::Http::Controllers::ProductController']]],
-  ['showcategory_4',['showCategory',['../class_app_1_1_http_1_1_controllers_1_1_product_controller.html#a9303ba64c70ab50c3946e2f1ed9b4454',1,'App::Http::Controllers::ProductController']]]
+  ['preventrequestsduringmaintenance_0',['PreventRequestsDuringMaintenance',['../class_app_1_1_http_1_1_middleware_1_1_prevent_requests_during_maintenance.html',1,'App::Http::Middleware']]],
+  ['preventrequestsduringmaintenance_2ephp_1',['PreventRequestsDuringMaintenance.php',['../_prevent_requests_during_maintenance_8php.html',1,'']]],
+  ['product_2',['Product',['../class_app_1_1_models_1_1_product.html',1,'App::Models']]],
+  ['product_2ephp_3',['Product.php',['../_product_8php.html',1,'']]],
+  ['productcontroller_4',['ProductController',['../class_app_1_1_http_1_1_controllers_1_1_product_controller.html',1,'App::Http::Controllers']]],
+  ['productcontroller_2ephp_5',['ProductController.php',['../_product_controller_8php.html',1,'']]],
+  ['products_6',['products',['../class_app_1_1_models_1_1_category.html#a1dfa1e04d64fb75d4fd0a6362c6cd0c5',1,'App\Models\Category\products()'],['../class_app_1_1_models_1_1_order.html#a1dfa1e04d64fb75d4fd0a6362c6cd0c5',1,'App\Models\Order\products()']]]
 ];

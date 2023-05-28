@@ -23,13 +23,16 @@
  @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var menudata={children:[
-{text:"Main Page",url:"index.html"},
-{text:"Data Structures",url:"annotated.html",children:[
-{text:"Data Structures",url:"annotated.html"},
-{text:"Data Structure Index",url:"classes.html"},
-{text:"Class Hierarchy",url:"hierarchy.html"},
-{text:"Data Fields",url:"functions.html",children:[
-{text:"All",url:"functions.html",children:[
+{text:"Титульная страница",url:"index.html"},
+{text:"Пространства имен",url:"namespaces.html",children:[
+{text:"Пространства имен",url:"namespaces.html"}]},
+{text:"Структуры данных",url:"annotated.html",children:[
+{text:"Структуры данных",url:"annotated.html"},
+{text:"Алфавитный указатель структур данных",url:"classes.html"},
+{text:"Иерархия классов",url:"hierarchy.html"},
+{text:"Поля структур",url:"functions.html",children:[
+{text:"Указатель",url:"functions.html",children:[
+{text:"$",url:"functions.html#index__24"},
 {text:"_",url:"functions.html#index__5F"},
 {text:"b",url:"functions.html#index_b"},
 {text:"c",url:"functions.html#index_c"},
@@ -37,11 +40,13 @@ var menudata={children:[
 {text:"g",url:"functions.html#index_g"},
 {text:"h",url:"functions.html#index_h"},
 {text:"i",url:"functions.html#index_i"},
+{text:"m",url:"functions.html#index_m"},
+{text:"p",url:"functions.html#index_p"},
 {text:"r",url:"functions.html#index_r"},
 {text:"s",url:"functions.html#index_s"},
 {text:"u",url:"functions.html#index_u"},
 {text:"v",url:"functions.html#index_v"}]},
-{text:"Functions",url:"functions_func.html",children:[
+{text:"Функции",url:"functions_func.html",children:[
 {text:"_",url:"functions_func.html#index__5F"},
 {text:"b",url:"functions_func.html#index_b"},
 {text:"c",url:"functions_func.html#index_c"},
@@ -49,7 +54,12 @@ var menudata={children:[
 {text:"g",url:"functions_func.html#index_g"},
 {text:"h",url:"functions_func.html#index_h"},
 {text:"i",url:"functions_func.html#index_i"},
+{text:"m",url:"functions_func.html#index_m"},
+{text:"p",url:"functions_func.html#index_p"},
 {text:"r",url:"functions_func.html#index_r"},
 {text:"s",url:"functions_func.html#index_s"},
 {text:"u",url:"functions_func.html#index_u"},
-{text:"v",url:"functions_func.html#index_v"}]}]}]}]}
+{text:"v",url:"functions_func.html#index_v"}]},
+{text:"Переменные",url:"functions_vars.html"}]}]},
+{text:"Файлы",url:"files.html",children:[
+{text:"Файлы",url:"files.html"}]}]}
