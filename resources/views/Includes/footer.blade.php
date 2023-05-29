@@ -25,7 +25,7 @@
     </nav>
 
     <div class="logotip">
-        <a href="index.html"><img src="/img/logo1.svg" alt=""></a>
+        <a href="/home"><img src="/img/logo1.svg" alt=""></a>
 	</div>
 
     <div class="social">

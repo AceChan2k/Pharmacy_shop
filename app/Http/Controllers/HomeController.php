@@ -29,4 +29,22 @@ class HomeController extends Controller
             'products' => $products
         ]);
     }
+
+    public function search(Request $request)
+    {
+
+        $src = $request->src;
+        $products = Product::where(function ($query) use ($src) {
+        $query->where('title', 'LIKE', "%{$src}%")
+            ->orWhereHas('category', function ($query) use ($src) {
+                $query->where('title', 'LIKE', "%{$src}%");
+            });
+        })->get();
+
+
+        return view('index', [
+            'products' => $products
+        ]);
+    }
+    
 }

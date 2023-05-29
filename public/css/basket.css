@@ -33,15 +33,18 @@ h2{
 }
 
 
-td {
+table td {
     text-align: left;
     font-size: 20px;
     margin-top: 15px;
+    background: white;
+    
 }
 
-th {
-    text-align: center;
-    font-size: 15px;
+table th {
+    text-align: left;
+    font-size: 20px;
+    background-color: white;
 }
 
 .qty {
@@ -63,15 +66,39 @@ th {
     justify-content: center;
     background-color: white;
 }
-
+  
 .btn_order a {
-    justify-content: center;
-    text-align: center;
-    font-size: 20px;
-    display: flex;
-    margin-left: 250px;
-    margin-right: 250px;
-} 
+ /* сброс стилей */
+ padding: 0;
+ border: none;
+ font: inherit;
+ color: inherit;
+ background-color: transparent;
+ cursor: pointer;
+ 
+ /* сброс браузерных стилей для фокуса */
+ outline: none;
+ 
+ /* переопределение стилей для ссылок */
+ display: inline-block;
+ text-decoration: none;
+
+ /* небольшие вертикальные отступы */
+ margin: 2px 15px;
+
+ /* невидимая рамка */
+ border: solid 2px transparent;
+ border-radius: 0px;
+
+ /* для установки размеров используем паддинги */
+ padding: 0.5em 1em;
+
+ /* контрастные цвета */
+ color: white;
+ background-color: black;
+
+ --bs-btn-hover-border-color: none;
+}
 
 .details_image_large img {
     width: 100px;

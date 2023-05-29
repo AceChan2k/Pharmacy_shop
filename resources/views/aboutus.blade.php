@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-		<main class="main">
+		<main class="main" style="margin-top: 2px;">
 			<h2 style="text-align: center; padding-top: 10px; padding-bottom: 55px;">Информация о нас</h2>
 			<div class="container-xl" style="padding-bottom: 95px;">
 				<div class="about-row row" style="padding-left: 0px">

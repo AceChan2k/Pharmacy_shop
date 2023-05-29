@@ -20,6 +20,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('/search', [App\Http\Controllers\HomeController::class, 'search'])->name('search');
 
 Route::group(['prefix' => 'basket',],function(){
 
@@ -29,6 +30,9 @@ Route::group(['prefix' => 'basket',],function(){
     Route::post('/remove/{id}', [App\Http\Controllers\BasketController::class, 'basketRemove'])->name('basket-remove');
     Route::post('/place', [App\Http\Controllers\BasketController::class, 'basketConfirm'])->name('basket-confirm');
 
+});
+
+Route::get('/How_to_order', function () {return view('how_to_order');
 });
 
 Route::get('/aboutus', function () {return view('aboutus');

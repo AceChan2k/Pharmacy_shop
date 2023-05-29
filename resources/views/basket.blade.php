@@ -9,7 +9,7 @@
 </div>
 
 <div class="panel">
-    <table class="table table-striped">
+    <table class="table" style="--bs-table-border-color: black;">
         <thead>
         <tr>
             <th>Название</th>
@@ -52,7 +52,7 @@
             </tr>
         </tbody>
     </table>
-    <div class="btn_order">
+    <div class="btn_order" style="text-align: center;">
         <a type="button" class="btn" href="{{route('basket-place')}}">Оформить заказ</a>
     </div>
 </div>

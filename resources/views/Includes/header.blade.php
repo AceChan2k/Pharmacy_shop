@@ -13,10 +13,10 @@
                     
                     
             <div class="header-search">
-                <form class="search">
+                <form class="search" method="get" action="{{route('search')}}">
                     <label class="search-label">
-                        <input class="search-input" type="text"  placeholder="Нажмите для поиска" />
-                        <a class="search-btn" href="#">Найти</a>
+                        <input class="search-input" type="text" id="src" name="src" placeholder="Нажмите для поиска" />
+                        <!-- <a class="search-btn" href="#">Найти</a> -->
                     </label>
                 </form>
             </div>
@@ -59,9 +59,9 @@
                     </ul>
                         </li>
                         <!-- <li class="nav-header-link-text"><a href="#">Оплата и доставка</a></li> -->
-                        <!-- <li class="nav-header-link-text"><a href="#">Дополнительные услуги</a></li> -->
                         <li class="nav-header-link-text"><a href="/aboutus">О нас</a></li>
                         <li class="nav-header-link-text"><a href="/contacts">Контакты</a></li>
+                        <li class="nav-header-link-text"><a href="/How_to_order">Как заказать</a></li>
                     </ul>
                 </nav>
             </div>

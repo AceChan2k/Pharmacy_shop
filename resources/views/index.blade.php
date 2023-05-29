@@ -1,13 +1,5 @@
 @extends('layouts.app')
 
-@section('custom.css')
-
-	<!-- Styles -->
-	<link rel="stylesheet" href="/css/footer.css"/>
-	<link rel="stylesheet" href="/css/header.css"/>
-
-@endsection
-
 @section('content')
   
 	<main class="main">

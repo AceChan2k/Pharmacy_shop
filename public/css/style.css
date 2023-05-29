@@ -42,15 +42,21 @@
 
 .card h1{
   font-size: 25px;
+  margin-bottom: 0px;
 }
 
 .price {
   color: grey;
   font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .about_product {
   font-size: 15px;
+  margin-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow: hidden;
 }
 .card_button {
   list-style: none;
@@ -62,6 +68,7 @@
   cursor: pointer;
   width: 100%;
   font-size: 18px;
+  margin-bottom: 0px;
 }
 
 .card_button a {
