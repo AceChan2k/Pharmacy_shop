@@ -74,7 +74,7 @@ a, a:hover, a:visited, a:active, a:link{
 .button a{
 	display: block;
 	position: relative;
-	font-size: 16px;
+	font-size: 5px;
 	font-weight: 600;
 	line-height: 57px;
 	color: #1b1b1b;
@@ -111,10 +111,11 @@ a, a:hover, a:visited, a:active, a:link{
     transform: rotate3d(0, 0, 1, 0deg);
     -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
     transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+
 }
 
 .button:hover a{
-	color: white;
+	color: black;
 }
 
 
@@ -150,7 +151,7 @@ a, a:hover, a:visited, a:active, a:link{
 	font-size: 30px;
 	font-weight: 500;
 	color: black;
-    margin-top: 60px;
+    margin-top: 0px;
 }
 
 .details_price{
@@ -286,5 +287,16 @@ a, a:hover, a:visited, a:active, a:link{
 	overflow: hidden;
 	cursor: pointer;
     color: black;
-	font-size: 50px;
 }
+
+.sbm:hover {
+	background: none;
+	text-align: center;
+	border: solid 2px #1b1b1b;;
+	overflow: hidden;
+	cursor: pointer;
+    color: white;
+	background-color: #1b1b1b;
+}
+
+
