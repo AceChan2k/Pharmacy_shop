@@ -48,10 +48,12 @@
                                     <div id="qty_down_button" class="qty_down qty_control">-</i></div>
                                 </div>
                             </div>
-                                <form action="{{route('basket-add', $item)}}" method="POST">
+                            <div class="sbm">
+                            <form action="{{route('basket-add', $item)}}" method="POST">
                                     <button type="submit" class="btn" role="button" style="border: solid 2px #1b1b1b;">Добавить в корзину</button>
                                 @csrf
                             </form>
+                            </div>
                         </div>
 
                     </div>
